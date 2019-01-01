@@ -1,0 +1,22 @@
+{
+  "name": "banterstudios",
+  "version": "1.0.0",
+  "description": "Packages used for internal projects",
+  "main": "index.js",
+  "scripts": {
+    "lerna:init": "lerna init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derozn/banterstudios.git"
+  },
+  "author": "Nick de Rozarieux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derozn/banterstudios/issues"
+  },
+  "homepage": "https://github.com/derozn/banterstudios#readme",
+  "dependencies": {
+    "lerna": "^3.8.1"
+  }
+}
