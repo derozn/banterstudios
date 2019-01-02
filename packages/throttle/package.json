@@ -1,11 +1,14 @@
 {
   "name": "@banterstudios/throttle",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Simple throttle function",
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
     "build": "npx babel --root-mode upward src --out-dir lib --ignore \"src/*.spec.js\",\"src/*.stories.js\"",
     "jest": "jest --coverage --verbose --color"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
