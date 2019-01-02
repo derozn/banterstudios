@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lerna:init": "lerna init",
-    "lerna:release": "lerna build && lerna publish",
+    "lerna:release": "lerna run build && lerna publish",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
