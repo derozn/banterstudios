@@ -1,6 +1,6 @@
 {
   "name": "@banterstudios/use-window-resize",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Simple window resize hook",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -17,6 +17,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "c823f0ecbed83e81ccc5f2990a6b7da73aae2ff3"
+  }
 }
