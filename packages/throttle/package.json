@@ -1,0 +1,11 @@
+{
+  "name": "@banterstudios/throttle",
+  "version": "0.1.0",
+  "description": "Simple throttle function",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "babel src -d lib --ignore '**/*.spec.js'",
+    "jest": "jest --coverage --verbose --color"
+  }
+}
