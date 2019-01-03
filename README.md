@@ -1,3 +1,3 @@
-# banterstudios
+# banterstudiosuk
 
 npm i -g lerna

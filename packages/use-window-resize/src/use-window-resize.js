@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import throttle from '@banterstudios/throttle'
+import throttle from '@banterstudiosuk/throttle'
 
 const windowEvents = new Set()
 const handleResize = () => windowEvents.forEach(fn => fn())

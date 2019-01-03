@@ -1,4 +1,4 @@
-# `@banterstudios/use-window-resize`
+# `@banterstudiosuk/use-window-resize`
 
 > React hook to monitor and retrieve the window size
 
@@ -12,13 +12,13 @@
 ### npm
 
 ```bash
-npm i --save @banterstudios/use-window-resize
+npm i --save @banterstudiosuk/use-window-resize
 ```
 
 ## Usage
 
 ```jsx
-import useWindowResize from '@banterstudios/use-window-resize'
+import useWindowResize from '@banterstudiosuk/use-window-resize'
 
 const SomeComponent = () => {
   const {

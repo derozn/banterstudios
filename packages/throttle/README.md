@@ -1,4 +1,4 @@
-# `@banterstudios/throttle`
+# `@banterstudiosuk/throttle`
 
 > Throttle function
 
@@ -7,13 +7,13 @@
 ### npm
 
 ```bash
-npm i --save @banterstudios/throttle
+npm i --save @banterstudiosuk/throttle
 ```
 
 ## Usage
 
 ```js
-import throttle from '@banterstudios/throttle'
+import throttle from '@banterstudiosuk/throttle'
 
 const handleScroll = () => console.log('scrolling')
 

@@ -1,6 +1,6 @@
 {
-  "name": "@banterstudios/throttle",
-  "version": "0.1.1",
+  "name": "@banterstudiosuk/throttle",
+  "version": "0.0.0",
   "description": "Simple throttle function",
   "main": "lib/index.js",
   "module": "src/index.js",
