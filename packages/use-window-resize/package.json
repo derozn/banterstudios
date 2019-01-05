@@ -8,6 +8,7 @@
     "build": "npx babel --root-mode upward src --out-dir lib --ignore \"src/*.spec.js\",\"src/*.stories.js\"",
     "jest": "jest --coverage --verbose --color"
   },
+  "repository": "https://github.com/derozn/banterstudios/tree/master/packages/use-window-resize",
   "peerDependencies": {
     "react": "16.7.0-alpha.0",
     "react-dom": "16.7.0-alpha.0"
@@ -17,5 +18,7 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "author": "Nick de Rozarieux",
+  "license": "MIT"
 }

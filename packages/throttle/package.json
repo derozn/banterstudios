@@ -8,6 +8,9 @@
     "build": "npx babel --root-mode upward src --out-dir lib --ignore \"src/*.spec.js\",\"src/*.stories.js\"",
     "jest": "jest --coverage --verbose --color"
   },
+  "repository": "https://github.com/derozn/banterstudios/tree/master/packages/throttle",
+  "author": "Nick de Rozarieux",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   }
