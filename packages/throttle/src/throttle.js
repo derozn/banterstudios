@@ -9,7 +9,7 @@ const throttle = (func, delay = 100) => {
 
   const throttled = (...props) => {
     if (!resizeTimeout) {
-      resizeTimeout = window,setTimeout(() => {
+      resizeTimeout = window.setTimeout(() => {
         resizeTimeout = null
         func(...props)
       }, delay)
