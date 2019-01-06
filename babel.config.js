@@ -6,5 +6,12 @@ module.exports = {
   babelrcRoots: [
     ".",
     "packages/*"
-  ]
+  ],
+  env: {
+    test: {
+      presets: [
+        ['@babel/preset-env', { modules: 'cjs' }]
+      ]
+    }
+  }
 }
