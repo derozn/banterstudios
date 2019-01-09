@@ -33,7 +33,6 @@ const useWindowSize = ({ throttleAmount = 100 } = {}) => {
     }
   }, [])
 
-  const Comp = () => <div />
   return size
 }
 
