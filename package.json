@@ -34,12 +34,13 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
+    "jest-dom": "^3.1.2",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
+    "react-hooks-testing-library": "^0.3.6",
+    "react-testing-library": "^6.0.0",
     "regenerator-runtime": "^0.13.1",
     "storybook-readme": "^4.0.2"
   }

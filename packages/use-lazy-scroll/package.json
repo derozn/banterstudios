@@ -1,0 +1,25 @@
+{
+  "name": "@banterstudiosuk/use-lazy-scroll",
+  "version": "0.0.0",
+  "description": "Simple react lazy scroller",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "npx babel --root-mode upward src --out-dir lib --ignore \"src/*.spec.js\",\"src/*.stories.js\"",
+    "test:jest": "jest --coverage --verbose --color",
+    "test:jest:watch": "npm run test:jest --watch"
+  },
+  "repository": "https://github.com/derozn/banterstudios/tree/master/packages/use-lazy-scroll",
+  "peerDependencies": {
+    "react": "16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0"
+  },
+  "dependencies": {
+    "@banterstudiosuk/throttle": "^0.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Nick de Rozarieux",
+  "license": "MIT"
+}
