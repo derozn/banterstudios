@@ -1,6 +1,6 @@
 {
   "name": "@banterstudiosuk/use-window-resize",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Simple window resize hook",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -15,7 +15,7 @@
     "react-dom": "16.7.0-alpha.0"
   },
   "dependencies": {
-    "@banterstudiosuk/throttle": "^0.1.2"
+    "@banterstudiosuk/throttle": "^0.1.3"
   },
   "publishConfig": {
     "access": "public"
