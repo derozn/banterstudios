@@ -1,6 +1,6 @@
 {
   "name": "@banterstudiosuk/use-lazy-scroll",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.1-alpha.0",
   "description": "Simple react lazy scroller",
   "main": "lib/index.js",
   "module": "src/index.js",
