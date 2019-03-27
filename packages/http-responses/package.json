@@ -1,6 +1,6 @@
 {
   "name": "@banterstudiosuk/http-responses",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.1-alpha.0",
   "description": "Simple http response module for express",
   "main": "lib/index.js",
   "module": "src/index.js",
