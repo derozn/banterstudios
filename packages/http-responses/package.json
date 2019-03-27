@@ -1,0 +1,18 @@
+{
+  "name": "@banterstudiosuk/http-responses",
+  "version": "0.0.0",
+  "description": "Simple http response module for express",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "npx babel --root-mode upward src --out-dir lib --ignore \"src/*.spec.js\"",
+    "test:jest": "jest --coverage --verbose --color",
+    "test:jest:watch": "npm run test:jest -- --watch"
+  },
+  "repository": "https://github.com/derozn/banterstudios/tree/master/packages/http-responses",
+  "author": "Nick de Rozarieux",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
