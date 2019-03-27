@@ -1,1 +1,1 @@
-export { default } from './httpResponses'
+export { default } from './http-responses'
