@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/derozn/banterstudios#readme",
   "dependencies": {
-    "lerna": "^3.8.1"
+    "lerna": "^3.20.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
