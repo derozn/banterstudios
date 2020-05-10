@@ -9,7 +9,8 @@
   "files": [
     "rules",
     "react.js",
-    "index.js"
+    "index.js",
+    "typescript.js"
   ],
   "repository": "https://github.com/derozn/banterstudios/tree/master/packages/eslint-config",
   "author": "Nick de Rozarieux",
