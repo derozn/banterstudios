@@ -10,6 +10,7 @@
   "homepage": "https://github.com/derozn/banterstudios/tree/master/packages/prettier-config#readme",
   "license": "MIT",
   "main": "lib/index.js",
+  "module": "src/index.js",
   "directories": {
     "lib": "lib"
   },
@@ -24,7 +25,7 @@
     "url": "git+https://github.com/derozn/banterstudios.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "npx babel --root-mode upward src --out-dir lib --ignore \"src/*.spec.js\""
   },
   "bugs": {
     "url": "https://github.com/derozn/banterstudios/issues"
