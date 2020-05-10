@@ -1,10 +1,10 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
-    "@typescript-eslint/recommended",
+    "@typescript-eslint",
     "eslint-config-airbnb-typescript",
     "eslint-config-prettier",
-    "prettier/@typescript-eslint",
+    "eslint-config-prettier/@typescript-eslint",
     "./rules/main",
     "./rules/prettier",
   ].map(require.resolve),
