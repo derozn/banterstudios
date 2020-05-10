@@ -2,14 +2,14 @@
   "name": "@banterstudiosuk/eslint-config",
   "version": "0.2.3",
   "description": "eslint config",
-  "main": "lib/index.js",
-  "module": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js .",
-    "build": "npx babel --root-mode upward src --out-dir lib --ignore \"src/*.spec.js\""
+    "lint": "eslint --ext .js ."
   },
   "files": [
-    "lib"
+    "rules",
+    "react.js",
+    "index.js"
   ],
   "repository": "https://github.com/derozn/banterstudios/tree/master/packages/eslint-config",
   "author": "Nick de Rozarieux",
