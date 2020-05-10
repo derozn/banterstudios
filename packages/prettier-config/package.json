@@ -1,0 +1,29 @@
+{
+  "name": "@banterstudiosuk/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier config",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "Nick <banterstudios@gmail.com>",
+  "homepage": "https://github.com/derozn/banterstudios/tree/master/packages/prettier-config#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derozn/banterstudios.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/derozn/banterstudios/issues"
+  }
+}

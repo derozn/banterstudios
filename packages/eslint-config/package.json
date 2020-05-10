@@ -10,7 +10,7 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/derozn/banterstudios/tree/master/packages/linter",
+  "repository": "https://github.com/derozn/banterstudios/tree/master/packages/eslint-config",
   "author": "Nick de Rozarieux",
   "license": "MIT",
   "publishConfig": {
