@@ -45,5 +45,6 @@
     "eslint-plugin-react-hooks": "^2.0.0 || ^1.7.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0"
-  }
+  },
+  "gitHead": "e5696c2e696ed341db4cb4e59e9b87102b4f8702"
 }

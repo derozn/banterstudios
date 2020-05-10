@@ -8,10 +8,13 @@
   ],
   "author": "Nick <banterstudios@gmail.com>",
   "homepage": "https://github.com/derozn/banterstudios/tree/master/packages/prettier-config#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "lib"
@@ -25,5 +28,6 @@
   },
   "bugs": {
     "url": "https://github.com/derozn/banterstudios/issues"
-  }
+  },
+  "gitHead": "e5696c2e696ed341db4cb4e59e9b87102b4f8702"
 }
