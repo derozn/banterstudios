@@ -1,0 +1,38 @@
+{
+  "name": "@banterstudiosuk/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "Typescript lint rules",
+  "author": "Nick <banterstudios@gmail.com>",
+  "homepage": "https://github.com/derozn/banterstudios/tree/master/packages/eslint-config-typescript#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {},
+  "files": [
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derozn/banterstudios.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/derozn/banterstudios/issues"
+  },
+  "dependencies": {
+    "@banterstudiosuk/eslint-config": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint-config-airbnb-typescript": "^7.2.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "typescript": "^3.8.3"
+  }
+}
