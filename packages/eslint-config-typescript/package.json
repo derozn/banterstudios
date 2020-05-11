@@ -1,6 +1,6 @@
 {
   "name": "@banterstudiosuk/eslint-config-typescript",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "Typescript lint rules",
   "author": "Nick <banterstudios@gmail.com>",
   "homepage": "https://github.com/derozn/banterstudios/tree/master/packages/eslint-config-typescript#readme",
@@ -19,7 +19,7 @@
     "url": "https://github.com/derozn/banterstudios/issues"
   },
   "dependencies": {
-    "@banterstudiosuk/eslint-config": "^1.0.0"
+    "@banterstudiosuk/eslint-config": "^1.1.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",

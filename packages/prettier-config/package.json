@@ -1,6 +1,6 @@
 {
   "name": "@banterstudiosuk/prettier-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Prettier config",
   "keywords": [
     "prettier",
@@ -24,8 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/derozn/banterstudios.git"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "bugs": {
     "url": "https://github.com/derozn/banterstudios/issues"
   },
