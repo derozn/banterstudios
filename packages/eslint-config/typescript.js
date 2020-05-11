@@ -3,7 +3,6 @@ module.exports = {
   plugins: ["@typescript-eslint", "jest"],
   extends: [
     "eslint-config-airbnb-typescript",
-    "plugin:@typescript-eslint/recommended",
     "eslint-config-prettier",
     "eslint-config-prettier/@typescript-eslint",
     "./rules/main",
@@ -12,5 +11,8 @@ module.exports = {
   env: {
     "jest/globals": true,
     browser: true
+  },
+  parserOptions: {
+    project: './tsconfig.json'
   }
 };
