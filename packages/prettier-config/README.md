@@ -17,6 +17,23 @@ yarn add -D @banterstudiosuk/prettier-config
 
 ## Usage
 
+### .prettierrc.json
+```json
+"@banterstudios/prettier-config"
+```
+
+### .prettierrc.js
+```js
+module.exports = require('@banterstudios/prettier-config')
+```
+or
+```js
+module.exports = {
+  ...require('@banterstudios/prettier-config')
+  // Rest of your custom rules.
+}
+```
+
 ## License
 
 MIT

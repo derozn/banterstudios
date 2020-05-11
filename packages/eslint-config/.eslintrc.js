@@ -1,3 +1,4 @@
 module.exports = {
-  extends: "./typescript.js"
-}
+  parser: "babel-eslint",
+  ...require("./index"),
+};

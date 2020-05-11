@@ -25,7 +25,6 @@
     "url": "git+https://github.com/derozn/banterstudios.git"
   },
   "scripts": {
-    "build": "npx babel --root-mode upward src --out-dir lib --ignore \"src/*.spec.js\""
   },
   "bugs": {
     "url": "https://github.com/derozn/banterstudios/issues"
