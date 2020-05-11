@@ -7,6 +7,9 @@
   "license": "MIT",
   "main": "index.js",
   "directories": {},
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "*.ts",
     "*.js",
@@ -52,5 +55,6 @@
     "eslint-plugin-react-hooks": "^2.0.0",
     "prettier": "^1.18.2",
     "typescript": "^3.8.3"
-  }
+  },
+  "gitHead": "48eb32bee9f440808376b8555abb7a04e353565d"
 }
