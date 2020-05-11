@@ -2,11 +2,15 @@ module.exports = {
   parserOptions: {
     sourceType: "module",
     project: "./tsconfig.json",
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   extends: [
-    "@banterstudiosuk/eslint-config",
+    "@banterstudiosuk/eslint-config/react",
     "eslint-config-prettier/@typescript-eslint",
     "./rules/typescript",
+    "./rules/react",
     "./rules/import",
     "./settings",
   ].map(require.resolve),

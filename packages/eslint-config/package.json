@@ -20,7 +20,12 @@
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^6.10.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0 || ^6.7.2",
+    "prettier": "^1.19.1",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
@@ -28,18 +33,19 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^2.0.0"
   },
-  "peerDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^5.16.0 || ^6.7.2",
-    "prettier": "^1.19.1"
-  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "babel-jest": "^25.1.0",
     "eslint": "^5.16.0 || ^6.7.2",
     "eslint-find-rules": "^3.4.0",
     "jest": "^25.1.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.0.0"
   },
   "gitHead": "e5696c2e696ed341db4cb4e59e9b87102b4f8702"
 }
