@@ -6,9 +6,8 @@ module.exports = {
     "eslint-config-prettier/@typescript-eslint",
     "./rules/main",
     "./rules/prettier",
-    "./rules/typescript"
   ].map(require.resolve),
-  plugins: ["jest"],
+  plugins: ["@typescript-eslint", "jest"],
   env: {
     "jest/globals": true,
     browser: true

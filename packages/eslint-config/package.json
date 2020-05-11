@@ -10,7 +10,8 @@
     "rules",
     "react.js",
     "index.js",
-    "typescript.js"
+    "typescript.js",
+    "tsconfig.json"
   ],
   "repository": "https://github.com/derozn/banterstudios/tree/master/packages/eslint-config",
   "author": "Nick de Rozarieux",
