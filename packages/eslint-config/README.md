@@ -5,14 +5,16 @@
 
 ## Install Peer Dependencies
 ```bash
-  yarn add -D eslint prettier \
-              babel-eslint \
-              eslint-plugin-import@^2.20.1 \
-              eslint-plugin-jest@^23.8.2 \
-              eslint-plugin-jsx-a11y@^6.2.3 \
-              eslint-plugin-prettier@^3.1.2 \
-              eslint-plugin-react@^7.18.3 \
-              eslint-plugin-react-hooks@^2.0.0
+  yarn add -D @babel/core@^7.14.5 \
+    @babel/eslint-parser@^7.14.5 \
+    eslint@^7.28.0 \
+    eslint-plugin-import@^2.23.4 \
+    eslint-plugin-jest@^24.3.6 \
+    eslint-plugin-jsx-a11y@^6.4.1 \
+    eslint-plugin-prettier@^3.4.0 \
+    eslint-plugin-react@^7.24.0 \
+    eslint-plugin-react-hooks@^4.2.0 \
+    prettier@^2.3.1
 ```
 
 ## Install

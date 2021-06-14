@@ -12,9 +12,9 @@ module.exports = {
     "react/self-closing-comp": [
       "error",
       {
-        "component": true,
-        "html": true
-      }
-    ]
-  }
+        component: true,
+        html: true,
+      },
+    ],
+  },
 };

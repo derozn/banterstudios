@@ -10,6 +10,6 @@ module.exports = {
 
     "no-underscore-dangle": "off",
 
-    "complexity": ["warn", 8]
-  }
+    complexity: ["warn", 8],
+  },
 };
