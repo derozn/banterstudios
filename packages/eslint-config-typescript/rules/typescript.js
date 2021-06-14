@@ -6,5 +6,6 @@ module.exports = {
     "@typescript-eslint/prefer-interface": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-use-before-define": "error",
   },
 };
