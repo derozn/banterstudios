@@ -5,7 +5,6 @@ module.exports = {
   },
   extends: [
     "@banterstudiosuk/eslint-config",
-    "eslint-config-prettier/@typescript-eslint",
     "./rules/typescript",
     "./rules/import",
     "./settings",
