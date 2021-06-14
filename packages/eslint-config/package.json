@@ -1,6 +1,6 @@
 {
   "name": "@banterstudiosuk/eslint-config",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "eslint config",
   "main": "index.js",
   "scripts": {
