@@ -8,6 +8,7 @@ module.exports = {
   },
   extends: [
     "@banterstudiosuk/eslint-config/react",
+    "./rules/general",
     "./rules/typescript",
     "./rules/react",
     "./rules/import",
